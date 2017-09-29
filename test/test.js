@@ -25,7 +25,7 @@ var sandbox;
 
 
 describe("Twitter api call", function() {
-    it("should return without errors", function(done) {
+    it("should return without errors!", function(done) {
         twitter.doAllTwitterRequests(function(error, tweets) {
             //console.log("tweets: " + tweets.length); 
             console.log("error: " + error); 
